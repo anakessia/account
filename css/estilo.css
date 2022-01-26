@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(30, 40, 54);
+}
+
+.container{
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pic img {
+    width: 430px;
+    margin: 30px auto;
+}
+
+.login{
+    padding: 30px 60px;
+    background: rgb(30, 40, 54);
+}
+
+h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 2.5rem;
+}
+
+form{
+    width: 300px;
+    margin: 40px auto;
+}
+
+form i {
+    position: relative;
+    top: 32px;
+    left: 18px;
+    color: rgb(30, 40, 54);
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 9px 40px;
+    border-radius: 18px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px 22px;
+    cursor: pointer;
+    margin: 15px 15px 0 0;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:first-child{
+    background: rgb(238, 64, 64);
+}
+
+button:last-child{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+button:hover{
+    box-shadow: none;
+}
+
+a{
+    font-size: 11px;
+    margin: 10px 8px;
+    text-decoration: none;
+    color: rgb(190, 189, 189);
+
+}
